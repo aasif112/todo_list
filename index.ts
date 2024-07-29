@@ -1,6 +1,4 @@
-
-
-
+#!/usr/bin/env node
 
 import inquirer from "inquirer";
 
@@ -28,8 +26,6 @@ async function startList() {
         }
 }
          
-
-
 async function taskList(day:string) {
     
         while (condition) {
